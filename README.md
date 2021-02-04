@@ -1,6 +1,7 @@
 ## Welcome to GitHub Pages
 
 <h1> Liu De Hua </h1>
+<img src="GoFish.jpg" alt="Italian Trulli">
 
 ## Welcome to GitHub Pages
 

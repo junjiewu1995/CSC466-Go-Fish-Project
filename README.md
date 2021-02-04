@@ -33,6 +33,7 @@ If a player gets one or more cards of the named rank that was asked for, they ar
 If the player goes fishing without "making a catch" (does not receive a card he asked for), the turn passes to the left.The game ends when all thirteen books have been won. The winner is the player with the most books. During the game, if a player is left without cards, they may (when it's their turn to play), draw from the stock and then ask for cards of that rank. If there are no cards left in the stock, they are out of the game.
 
 
+<button class="medioButton" onclick="clickA(this)">播放/暂停</button>
 # Header 1
 ## Header 2
 ### Header 3

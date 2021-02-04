@@ -61,14 +61,14 @@ cover_color: clear
 
 # The blog button should not be removed.
 blog_button:
-    title: 博客主页
+    title: GoFish Game Design
 
 # Navigation buttons in the front page.s
 nav:
-    - {title: 所有文章, description: archive, url: '/archive'}   
-    - {title: 标签, description: tags, url: '/tags'}      
-    - {title: 技术支持, description: support, url: '/support'}      
-    - {title: 关于我, description: about, url: '/about'}   
+    - {title: Go Language Introduction, description: archive, url: '/archive'}
+    - {title: RPC Interaction, description: tags, url: '/tags'}
+    - {title: RAFT Algorithm Design, description: support, url: '/support'}
+    - {title: Team Intro, description: about, url: '/about'}
     
 
 # Pagination

@@ -1,11 +1,8 @@
 ## Welcome to Go Fish Project
 
-## Developers : JunJie Wu, Justin Pao, Kenton
-
-
 <img src="GoFish.jpeg" alt="Italian Trulli">
 
-## Welcome to GitHub Pages
+Developers : JunJie Wu, Justin Pao, Kenton
 
 You can use the [editor on GitHub](https://github.com/junjiewu1995/CSC466-Go-Fish-Project/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 

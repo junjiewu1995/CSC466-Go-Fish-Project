@@ -1,6 +1,8 @@
-## Welcome to GitHub Pages
+## Welcome to Go Fish Project
 
-<h1> Liu De Hua </h1>
+## Developers : JunJie Wu, Justin Pao, Kenton
+
+
 <img src="GoFish.jpeg" alt="Italian Trulli">
 
 ## Welcome to GitHub Pages

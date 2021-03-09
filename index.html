@@ -215,6 +215,19 @@
                                 <p>
                                     Version 1 - `Go Fish` Server and Client interaction(s) [Not Adding RAFT algorithm]
                                 </p>
+                                <p>
+                                    Our card game uses RPC calls such as `rpc.HandleHTTP()` for the server sides. One difficulty of implementing the
+                                    server is to keep the server running to receive the proper requests such as the implementation in our AskForCards().
+                                    Meanwhile, the server needs to track who is winning the game in a loop cycle until the game finishes. Each player in our
+                                    game is connected to a thread.To handle thread collision, our implementation applies the Mu.lock() and defer
+                                    Mu.Unlock() to allow each player to interact with the server individually. The other Reply{} and Args{} struct for calling
+                                    and receiving messages among client and server sides is defined in the assistant repository; however, until now we
+                                    haven’t fully defined the vars inside the file. The game design code would work well in the next 2-3 weeks. Further, we
+                                    would like to create multiple servers to mimic the P2P communications for backing up the data. As a result, the RAFT
+                                    server would keep running to receive the request, but we haven't reached that part yet. Therefore, the implementation
+                                    would be For { } infinite loop for handling the request. Later, as we implement the RAFT algorithm, the server would
+                                    keep running to receive the requests inside the RAFT instead of in the `GoFish` card game implementation.
+                                </p>
                             </div>
                         </div>
                         <a href="#" class="button" onclick="">Read More</a>

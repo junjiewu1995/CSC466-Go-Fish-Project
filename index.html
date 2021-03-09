@@ -224,13 +224,6 @@
                                     and receiving messages among client and server sides is defined in the assistant repository; however, until now we
                                     haven’t fully defined the vars inside the file.
                                 </p>
-                                <p>
-                                    The game design code would work well in the next 2-3 weeks. Further, we would like to create multiple servers to mimic
-                                    the P2P communications for backing up the data. As a result, the RAFT server would keep running to receive the request,
-                                    but we haven't reached that part yet. Therefore, the implementation would be For { } infinite loop for handling the request.
-                                    Later, as we implement the RAFT algorithm, the server would keep running to receive the requests inside the RAFT instead of
-                                    in the `GoFish` card game implementation.
-                                </p>
                             </div>
                         </div>
                         <a href="#" class="button" onclick="">Read More</a>
@@ -356,11 +349,7 @@
             position: relative;
             top: -5px;
         }
-
-        .GID {
-            position: relative;
-            top: -5px;
-        }
+        
     </style>
 
     <script src="js/jquery.js"></script>

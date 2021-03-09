@@ -223,6 +223,7 @@
                                     haven’t fully defined the vars inside the file.
                                 </p>
                             </div>
+                            <input type="checkbox" id="myCheck" onmouseover="myFunction()" onclick="alert('click event occured')">
                         </div>
                         <a href="#" class="button" onclick="">Read More</a>
                     </article>
@@ -359,11 +360,13 @@
         function routerWay() {
             window.location.href = 'https://web.stanford.edu/~ouster/cgi-bin/papers/raft-atc14';
         }
+        
         function RPCCall() {
             window.location.href = 'https://www.tutorialspoint.com/remote-procedure-call-rpc';
         }
-        function jump() {
-            document.getElementById(ogcg).click();
+
+        function myFunction() {
+            document.getElementById("myCheck").click();
         }
         $(document).foundation();
     </script>

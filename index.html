@@ -240,7 +240,7 @@
                     <h5>Categories</h5>
                     <div class="ui secondary vertical pointing menu">
                         <a href="#" class="active item">News</a>
-                        <a href="#" class="item" onmouseover="myFunction()" onclick="alert('click event occured')">Online Go-Fish Card Game</a>
+                        <a href="#" class="item" onmouseover="myFunction()" onclick="ds()">Online Go-Fish Card Game</a>
                         <a href="#" class="item">Raft Algorithm Design</a>
                         <a href="#" class="item">Rpc Interaction</a>
                         <a href="#" class="item">Go-Fish Interaction Diagram</a>
@@ -367,6 +367,10 @@
 
         function myFunction() {
             document.getElementById("item").click();
+        }
+
+        function ds() {
+            alert("Hws")
         }
 
         $(document).foundation();

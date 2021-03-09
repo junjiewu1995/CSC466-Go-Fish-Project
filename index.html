@@ -205,7 +205,7 @@
 
                     <article>
 
-                        <h1><a href="#">Go-Fish Interaction Diagram</a></h1>
+                        <h1 class="dd"><a href="#">Go-Fish Interaction Diagram</a></h1>
                         <p class="article_pub-date">Published
                             <time datetime="2020-03-08" pubdate="">Mar 08, 2020</time>
                         </p>
@@ -239,7 +239,7 @@
                     <h5>Categories</h5>
                     <div class="ui secondary vertical pointing menu">
                         <a href="#" class="active item">News</a>
-                        <a href="#" class="item">Online Go-Fish Card Game</a>
+                        <a href="#" class="item" onclick="jump">Online Go-Fish Card Game</a>
                         <a href="#" class="item">Raft Algorithm Design</a>
                         <a href="#" class="item">Rpc Interaction</a>
                         <a href="#" class="item">Go-Fish Interaction Diagram</a>
@@ -361,6 +361,9 @@
         }
         function RPCCall() {
             window.location.href = 'https://www.tutorialspoint.com/remote-procedure-call-rpc';
+        }
+        function jump() {
+            document.getElementsByClassName(dd).click()
         }
         $(document).foundation();
     </script>

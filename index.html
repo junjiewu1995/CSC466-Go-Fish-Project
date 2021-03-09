@@ -223,7 +223,7 @@
                                     haven’t fully defined the vars inside the file.
                                 </p>
                             </div>
-                            <input type="checkbox" id="myCheck" onmouseover="myFunction()" onclick="alert('click event occured')">
+
                         </div>
                         <a href="#" class="button" onclick="">Read More</a>
                     </article>
@@ -240,7 +240,7 @@
                     <h5>Categories</h5>
                     <div class="ui secondary vertical pointing menu">
                         <a href="#" class="active item">News</a>
-                        <a href="#" class="item" id="ogcg" onclick="alert('click event occured')">Online Go-Fish Card Game</a>
+                        <a href="#" id="myCheck" onmouseover="myFunction()" onclick="alert('click event occured')">Online Go-Fish Card Game</a>
                         <a href="#" class="item">Raft Algorithm Design</a>
                         <a href="#" class="item">Rpc Interaction</a>
                         <a href="#" class="item">Go-Fish Interaction Diagram</a>
@@ -360,7 +360,7 @@
         function routerWay() {
             window.location.href = 'https://web.stanford.edu/~ouster/cgi-bin/papers/raft-atc14';
         }
-        
+
         function RPCCall() {
             window.location.href = 'https://www.tutorialspoint.com/remote-procedure-call-rpc';
         }
@@ -368,6 +368,7 @@
         function myFunction() {
             document.getElementById("myCheck").click();
         }
+
         $(document).foundation();
     </script>
 </body>

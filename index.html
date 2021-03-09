@@ -239,7 +239,7 @@
                     <h5>Categories</h5>
                     <div class="ui secondary vertical pointing menu">
                         <a href="#" class="active item">News</a>
-                        <a href="#" class="item" onclick="jump()">Online Go-Fish Card Game</a>
+                        <a href="#" class="item" id="ogcg" onclick="alert('click event occured')">Online Go-Fish Card Game</a>
                         <a href="#" class="item">Raft Algorithm Design</a>
                         <a href="#" class="item">Rpc Interaction</a>
                         <a href="#" class="item">Go-Fish Interaction Diagram</a>
@@ -363,7 +363,7 @@
             window.location.href = 'https://www.tutorialspoint.com/remote-procedure-call-rpc';
         }
         function jump() {
-            document.getElementById(dd).click();
+            document.getElementById(ogcg).click();
         }
         $(document).foundation();
     </script>
